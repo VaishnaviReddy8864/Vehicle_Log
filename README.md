@@ -39,7 +39,8 @@ The `VehicleLog-Service` module is built using the **Spring Boot** framework and
 
 ### 2.2 Layered Architecture
 
-*(Add diagram here if needed)*
+![chart](https://github.com/user-attachments/assets/6c8bd81f-4bb8-403f-b200-d5b4991c2d7e)
+
 
 ### 2.3 Technologies Used
 
@@ -81,7 +82,8 @@ The `VehicleLog-Service` module utilizes the following table:
 
 ### 4.2 Sequence Diagram
 
-*(Add diagram here if needed)*
+![chart (1)](https://github.com/user-attachments/assets/f33ad18e-3fc6-4bd5-9733-ceccf7916e26)
+
 
 ### 4.3 Swagger Documentation
 
