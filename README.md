@@ -87,5 +87,48 @@ The `VehicleLog-Service` module utilizes the following table:
 
 ### 4.3 Swagger Documentation
 
-Detailed API documentation can be found via Swagger UI, typically available at:
+Detailed API documentation can be found via Swagger UI, typically available at: /swagger-ui.html when 
+the service is running.
 
+---
+
+## 5. Error Handling
+
+The module leverages Spring Boot's exception handling mechanisms to return appropriate HTTP status codes for errors, ensuring clear communication of issues to client applications.
+
+### Common Error Codes
+
+| Error Code | Description           |
+|------------|-----------------------|
+| `400`      | Bad Request           |
+| `404`      | Resource Not Found    |
+| `500`      | Internal Server Error |
+
+---
+
+## 6. Dependencies
+
+### Key Dependencies
+
+- Spring Boot Starter Web: For building REST APIs  
+- Spring Boot Starter Data JPA: For database interactions  
+- H2 Database: In-memory database for local development  
+- Lombok: For reducing boilerplate code  
+- JUnit & Mockito: For unit testing  
+
+---
+
+## 7. Deployment
+
+The `VehicleLog-Service` module is configured to run on **port `8020`**. It uses **Maven** for building and packaging the application. Database configurations are defined within the `application.properties` file.
+
+### Key Configuration
+
+```properties
+spring.application.name=vehiclelog-service
+server.port=8020
+spring.datasource.url=jdbc:h2:file:./data/vehicleLogDB;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+spring.datasource.driver-class-name=org.h2.Driver
+spring.datasource.username=sa
+spring.datasource.password=
+spring.jpa.hibernate.ddl-auto=update
