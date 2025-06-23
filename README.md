@@ -3,32 +3,32 @@
 This document provides a low-level overview of the `VehicleLog-Service` module, a microservice within the Parking Management System (PMS) responsible for managing vehicle entry and exit operations.
 
 ---
-## Table of Contents
 
-1. Project Overview  
-   1.1 Features
-
-2. Architecture  
-   2.1 High-Level Architecture  
-   2.2 Layered Architecture  
-   2.3 Technologies Used
-
-3. Database Design  
-   3.1 Database Tables
-
-4. API Endpoints  
-   4.1 Vehicle Log Management  
-   4.2 Sequence Diagram  
-   4.3 Swagger Documentation
-
-5. Error Handling  
-   5.1 Common Error Codes
-
-6. Dependencies  
-   6.1 Key Dependencies
-
-7. Deployment  
-   7.1 Key Configuration
+ ## Table of Contents
+ 
+1. [Project Overview](#1-project-overview)  
+   - [Features](#features)
+ 
+2. [Architecture](#2-architecture)  
+   - [High-Level Architecture](#21-high-level-architecture)  
+   - [Layered Architecture](#22-layered-architecture)  
+   - [Technologies Used](#23-technologies-used)
+ 
+3. [Database Design](#3-database-design)  
+   - [Database Tables](#31-database-tables)
+ 
+4. [API Endpoints](#4-api-endpoints)  
+   - [Vehicle Log Management](#41-vehicle-log-management)  
+   - [Sequence Diagram](#42-sequence-diagram)  
+   - [Swagger Documentation](#43-swagger-documentation)
+ 
+5. [Error Handling](#5-error-handling)
+ 
+6. [Dependencies](#6-dependencies)  
+   - [Key Dependencies](#key-dependencies)
+ 
+7. [Deployment](#7-deployment)  
+   - [Key Configuration](#key-configuration)
 
 
    
