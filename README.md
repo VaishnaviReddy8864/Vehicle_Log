@@ -109,8 +109,7 @@ sequenceDiagram
 
 ### 4.3 Swagger Documentation
 
-Detailed API documentation can be found via Swagger UI, typically available at: /swagger-ui.html when 
-the service is running.
+Detailed API documentation can be found via Swagger UI, typically available at `/swagger-ui.html` when the service is running.
 
 ---
 
