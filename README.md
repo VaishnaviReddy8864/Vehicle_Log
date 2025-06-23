@@ -4,23 +4,33 @@ This document provides a low-level overview of the `VehicleLog-Service` module, 
 
 ---
 ## Table of Contents
-1. [Introduction](#1-introduction)  
-    * [1.1 Features](#11-features)  
-2. [Architecture](#2-architecture)  
-    * [2.1 High-Level Architecture](#21-high-level-architecture)  
-    * [2.2 Technologies Used](#22-technologies-used)  
-3. [Database Design](#3-database-design)  
-    * [3.1 VehicleLog Table](#31-user-table)  
-4. [API Endpoints](#4-api-endpoints)  
-    * [4.1 VehicleLog Management Endpoints](#41-user-management-endpoints)  
-    * [4.2 VehicleLog Sequence Diagram](#42-user-registration-sequence-diagram)  
-    * [4.3 Swagger Documentation](#43-swagger-documentation)  
-5. [Error Handling](#5-error-handling)  
-    * [5.1 Common Error Codes](#51-common-error-codes)  
-6. [Dependencies](#6-dependencies)  
-    * [6.1 Key Dependencies](#61-key-dependencies)  
-7. [Deployment](#7-deployment)  
-    * [7.1 Key Configuration](#71-key-configuration)
+
+1. Project Overview  
+   1.1 Features
+
+2. Architecture  
+   2.1 High-Level Architecture  
+   2.2 Layered Architecture  
+   2.3 Technologies Used
+
+3. Database Design  
+   3.1 Database Tables
+
+4. API Endpoints  
+   4.1 Vehicle Log Management  
+   4.2 Sequence Diagram  
+   4.3 Swagger Documentation
+
+5. Error Handling  
+   5.1 Common Error Codes
+
+6. Dependencies  
+   6.1 Key Dependencies
+
+7. Deployment  
+   7.1 Key Configuration
+
+
    
 ## 1. Project Overview
 
