@@ -1,4 +1,4 @@
-# VehicleLog-Service Module Low-Level Documentation
+![image](https://github.com/user-attachments/assets/fcb82c17-1da7-4dfe-924f-8bb266eb9d5e)# VehicleLog-Service Module Low-Level Documentation
 
 This document provides a low-level overview of the `VehicleLog-Service` module, a microservice within the Parking Management System (PMS) responsible for managing vehicle entry and exit operations.
 
@@ -39,7 +39,15 @@ The `VehicleLog-Service` module is built using the **Spring Boot** framework and
 
 ### 2.2 Layered Architecture
 
-![chart](https://github.com/user-attachments/assets/6c8bd81f-4bb8-403f-b200-d5b4991c2d7e)
+```mermaid
+graph TD
+    A[API Gateway] --> B[VehicleLog Controller]
+    B --> C[VehicleLog Service]
+    C --> D[VehicleLog Repository]
+    D --> E[VehicleLog Database]
+    A -- Registers and Discovers --> F[Eureka Discovery Service]
+    C -- Registers and Discovers --> F
+```
 
 
 ### 2.3 Technologies Used
@@ -82,7 +90,21 @@ The `VehicleLog-Service` module utilizes the following table:
 
 ### 4.2 Sequence Diagram
 
-![chart (1)](https://github.com/user-attachments/assets/f33ad18e-3fc6-4bd5-9733-ceccf7916e26)
+```mermaid
+sequenceDiagram
+    participant Staff
+    participant API Gateway
+    participant VehicleLogService
+    participant VehicleLogDB
+
+    Staff->>API Gateway: POST /api/vehicle-log/entry (VehicleLog object)
+    API Gateway->>VehicleLogService: Route request
+    VehicleLogService->>VehicleLogService: Validate slot and user
+    VehicleLogService->>VehicleLogDB: Save entry log
+    VehicleLogDB-->>VehicleLogService: Entry log saved
+    VehicleLogService-->>API Gateway: Response with log details
+    API Gateway-->>Staff: Response with log details
+```
 
 
 ### 4.3 Swagger Documentation
