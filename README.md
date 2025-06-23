@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/fcb82c17-1da7-4dfe-924f-8bb266eb9d5e)# VehicleLog-Service Module Low-Level Documentation
+# VehicleLog-Service Module Low-Level Documentation
 
 This document provides a low-level overview of the `VehicleLog-Service` module, a microservice within the Parking Management System (PMS) responsible for managing vehicle entry and exit operations.
 
