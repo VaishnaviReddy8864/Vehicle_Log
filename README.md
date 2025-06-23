@@ -10,7 +10,7 @@ This document provides a low-level overview of the Vehicle Log-Service module, a
 ### Features
 
 * **Log vehicle entry**
-      *Records the entry time of a vehicle into a parking slot.
+ *Records the entry time of a vehicle into a parking slot.
       *Validates slot availability and user association.
   *Updates the slot status to occupied.
 
