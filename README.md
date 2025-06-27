@@ -6,17 +6,17 @@ This document provides a low-level overview of the `VehicleLog-Service` module, 
 
  ## Table of Contents
 
-1. Project Overview(#1-project overview)
+1. [Project Overview](#1-project-overview)
    - [1.1 Features](#11-features)
 2. [Architecture](#2-architecture)
    - [2.1 Component Diagram](#21-component-diagram)
    - [2.2 Sequence Diagram](#22-sequence-diagram)
 3. [Database Design](#3-database-design)
-   - [3.1 VehicleLog Tables](#31-vehiclelog-table)
-4. API Endpoints(#4-api-endpoints)
+   - [3.1 VehicleLog Table](#31-vehiclelog-table)
+4. [API Endpoints](#4-api-endpoints)
    - [4.1 Vehicle Log Management](#41-vehicle-log-management)
    - [4.2 Swagger Documentation](#42-swagger-documentation)
-5. Error Handling(#5-error-handling)
+5. [Error Handling](#5-error-handling)
    -[5.1 Common Error Codes](#51-common-error-codes) 
 6. [Maven Dependencies](#6-maven-dependencies)
    - [Maven Dependencies](#maven-dependencies)
