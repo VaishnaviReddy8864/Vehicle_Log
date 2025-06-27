@@ -6,22 +6,22 @@ This document provides a low-level overview of the `VehicleLog-Service` module, 
 
  ## Table of Contents
 
-1. Project Overview
-   - [Features](#11-features)
+1. Project Overview(#1-project overview)
+   - [1.1 Features](#11-features)
 2. [Architecture](#2-architecture)
-   - [Component Diagram](#21-component-diagram)
-   - [Sequence Diagram](#22-sequence-diagram)
+   - [2.1 Component Diagram](#21-component-diagram)
+   - [2.2 Sequence Diagram](#22-sequence-diagram)
 3. [Database Design](#3-database-design)
-   - [Database Tables](#31-database-tables)
-4. API Endpoints
-   - Vehicle Log Management
-   - Swagger Documentation
-5. Error Handling
-   - Common Error Codes
-6. [Dependencies](#6-dependencies)
+   - [3.1 VehicleLog Tables](#31-vehiclelog-table)
+4. API Endpoints(#4-api-endpoints)
+   - [4.1 Vehicle Log Management](#41-vehicle-log-management)
+   - [4.2 Swagger Documentation](#42-swagger-documentation)
+5. Error Handling(#5-error-handling)
+   -[5.1 Common Error Codes](#51-common-error-codes) 
+6. [Maven Dependencies](#6-maven-dependencies)
    - [Maven Dependencies](#maven-dependencies)
 7. [Deployment](#7-deployment)
-   - Run Locally
+   - [7.1 Run Locally](#71-run-locally)
 
 
  
@@ -155,11 +155,10 @@ sequenceDiagram
 
 ## 3. Database Design
 
-### 3.1 Database Tables
+### 3.1 VehicleLog-Service Table
 
 The `VehicleLog-Service` module utilizes the following table:
 
-#### VehicleLog Table
 
 | Column Name     | Data Type | Description                          |
 |-----------------|-----------|--------------------------------------|
@@ -193,7 +192,7 @@ Detailed API documentation can be found via Swagger UI, typically available at `
 
 The module leverages Spring Boot's exception handling mechanisms to return appropriate HTTP status codes for errors, ensuring clear communication of issues to client applications.
 
-### Common Error Codes
+### 5.1 Common Error Codes
 
 | Error Code | Description           |
 |------------|-----------------------|
@@ -234,7 +233,7 @@ The `pom.xml` file defines the project's dependencies and build configuration. K
 
 ## 7. Deployment
 
-## Run Locally
+## 7.1 Run Locally
 
 ```bash
 # Clone this repo
