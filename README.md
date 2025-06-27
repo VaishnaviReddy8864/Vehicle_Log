@@ -12,7 +12,7 @@ This document provides a low-level overview of the `VehicleLog-Service` module, 
    - [2.1 Component Diagram](#21-component-diagram)
    - [2.2 Sequence Diagram](#22-sequence-diagram)
 3. [Database Design](#3-database-design)
-   - [3.1 VehicleLog Table](#31-vehiclelog-table)
+   - [3.1 VehicleLog-Service Table](#31-vehiclelog-service-table)
 4. [API Endpoints](#4-api-endpoints)
    - [4.1 Vehicle Log Management](#41-vehicle-log-management)
    - [4.2 Swagger Documentation](#42-swagger-documentation)
