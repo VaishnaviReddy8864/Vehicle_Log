@@ -5,31 +5,26 @@ This document provides a low-level overview of the `VehicleLog-Service` module, 
 ---
 
  ## Table of Contents
- 
-1. [Project Overview](#1-project-overview)  
-   - [Features](#11-features)
- 
-2. [Architecture](#2-architecture)  
-   - [High-Level Architecture](#21-high-level-architecture)  
-   - [Layered Architecture](#22-layered-architecture)  
-   - [Technologies Used](#23-technologies-used)
- 
-3. [Database Design](#3-database-design)  
-   - [Database Tables](#31-database-tables)
- 
-4. [API Endpoints](#4-api-endpoints)  
-   - [Vehicle Log Management](#41-vehicle-log-management)  
-   - [Sequence Diagram](#42-sequence-diagram)  
-   - [Swagger Documentation](#43-swagger-documentation)
- 
-5. [Error Handling](#5-error-handling)
- 
-6. [Dependencies](#6-dependencies)  
-   - [Key Dependencies](#key-dependencies)
- 
-7. [Deployment](#7-deployment)  
-   - [Key Configuration](#key-configuration)
 
+1. Project Overview
+   - [Features](#11-features)
+2. [Architecture](#2-architecture)
+   - [Component Diagram](#21-component-diagram)
+   - [Sequence Diagram](#22-sequence-diagram)
+3. [Database Design](#3-database-design)
+   - [Database Tables](#31-database-tables)
+4. API Endpoints
+   - Vehicle Log Management
+   - Swagger Documentation
+5. Error Handling
+   - Common Error Codes
+6. [Dependencies](#6-dependencies)
+   - [Maven Dependencies](#maven-dependencies)
+7. [Deployment](#7-deployment)
+   - Run Locally
+
+
+ 
 
    
 ## 1. Project Overview
@@ -208,9 +203,7 @@ The module leverages Spring Boot's exception handling mechanisms to return appro
 
 ---
 
-## 6. Dependencies
-
-## Maven Dependencies
+## 6. Maven Dependencies
 
 The `pom.xml` file defines the project's dependencies and build configuration. Key dependencies include:
 
