@@ -17,9 +17,8 @@ This document provides a low-level overview of the `VehicleLog-Service` module, 
    - [4.1 Vehicle Log Management](#41-vehicle-log-management)
    - [4.2 Swagger Documentation](#42-swagger-documentation)
 5. [Error Handling](#5-error-handling)
-   -[5.1 Common Error Codes](#51-common-error-codes) 
+   - [5.1 Common Error Codes](#51-common-error-codes) 
 6. [Maven Dependencies](#6-maven-dependencies)
-   - [Maven Dependencies](#maven-dependencies)
 7. [Deployment](#7-deployment)
    - [7.1 Run Locally](#71-run-locally)
 
